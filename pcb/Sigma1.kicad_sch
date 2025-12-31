@@ -2201,6 +2201,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MLX90395KDC-BBA-001-SP:MLX90395KDC-BBA-001-SP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MLX90395KDC-BBA-001-SP"
+				(at -12.7 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MLX90395KDC-BBA-001-SP:SOIC127P600X172-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Melexis"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.72mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOIC-8-8 Melexis"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MLX90395KDC-BBA-001-SP/Melexis/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "6.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLX90395KDC-BBA-001-SP/Melexis/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MLX90395KDC-BBA-001-SP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "MLX90395BBA.SOIC8.octagon_50mT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Melexis"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MLX90395KDC-BBA-001-SP_0_0"
+				(rectangle
+					(start -12.7 -12.7)
+					(end 12.7 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "MS/CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SCL/SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "SDA/MOSI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "INT/TRG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3866,785 +4198,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Magnetic:MLX90395xLW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -9.906 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MLX90395xLW"
-				(at 1.27 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.675x1.675mm"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.melexis.com/en/documents/documentation/datasheets/datasheet-mlx90395"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-axis Magnetometer Node, SPI / I2C interface, VQFN-16"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Melexis Triaxis Hall-Sensor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*QFN*3x3mm*P0.5mm*EP1.675x1.675mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MLX90395xLW_0_1"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MLX90395xLW_1_1"
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "MS" input line)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SCL" input line)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SDA" bidirectional line)
-				)
-				(pin output line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "INT/TRG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "INT" output line)
-					(alternate "TRG" input line)
-				)
-				(pin output line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(hide yes)
-					(name "V_{SS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Sensor_Pressure:MS5611-01BA"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MS5611-01BA"
-				(at 7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "pressure SPI I2C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LGA*3x5mm*P1.25mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MS5611-01BA_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MS5611-01BA_1_1"
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "PS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SDI/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:IRLML6402"
 			(pin_names
 				(hide yes)
@@ -4943,6 +4496,422 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:BMP390_C5124834"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMP390_C5124834"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LGA-10_L2.0-W2.0-P0.50-BL"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5124834"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BMP390_C5124834_0_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.62 6.35)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:TS-1088R-02026"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1088R-02026"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C455280"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS-1088R-02026_0_1"
+				(polyline
+					(pts
+						(xy -2.03 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.52 0.51) (xy 1.52 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.52 0)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -5196,7 +5165,7 @@
 	)
 	(rectangle
 		(start 333.375 34.29)
-		(end 396.875 68.58)
+		(end 406.4 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -5491,6 +5460,12 @@
 		(uuid "8c4a5f26-7d54-4ea4-983a-4c74198540c8")
 	)
 	(junction
+		(at 337.82 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9686ef27-fca9-4709-8c82-efef54e06550")
+	)
+	(junction
 		(at 49.53 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5569,6 +5544,12 @@
 		(uuid "ed312ad0-317e-4ebb-9b22-a8b53581f54e")
 	)
 	(junction
+		(at 337.82 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efcb2c2e-a359-4be6-8be7-cf5a1ab86fb5")
+	)
+	(junction
 		(at 312.42 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5591,32 +5572,37 @@
 		(uuid "5c9c4871-79c8-460b-a4e1-7f50a70eed71")
 	)
 	(no_connect
-		(at 295.91 59.69)
+		(at 292.1 60.96)
 		(uuid "6aa99c04-07ea-456b-a2c8-f3165a790853")
 	)
 	(no_connect
-		(at 321.31 46.99)
-		(uuid "b091ea1b-d604-48b6-8d1a-c00a73173067")
+		(at 327.66 48.26)
+		(uuid "78cd9281-1f3e-4745-a2b3-0f76d10c2b66")
+	)
+	(no_connect
+		(at 392.43 54.61)
+		(uuid "a139827b-496c-4df5-b1b5-781683af6168")
 	)
 	(no_connect
 		(at 93.98 49.53)
 		(uuid "b8db58fb-c83c-4be3-a9dc-955f35985d6f")
 	)
 	(no_connect
-		(at 295.91 62.23)
-		(uuid "bace0ecf-2cab-4456-9423-54423830f252")
-	)
-	(no_connect
 		(at 251.46 58.42)
 		(uuid "c6a82ab0-827d-412e-8213-08edbfd25510")
 	)
 	(no_connect
-		(at 321.31 49.53)
-		(uuid "e557dac3-9794-41ce-887d-ef678f1af32f")
-	)
-	(no_connect
 		(at 93.98 52.07)
 		(uuid "ede4a137-b1f6-4e77-a74a-85ecf11838cd")
+	)
+	(bus_entry
+		(at 433.07 285.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f4bf5e-1d25-4d95-b92a-d6851e31c57a")
 	)
 	(bus_entry
 		(at 118.11 152.4)
@@ -5775,6 +5761,16 @@
 			(type default)
 		)
 		(uuid "1ed599bb-6620-43e3-bae4-86c8ea1e5004")
+	)
+	(wire
+		(pts
+			(xy 392.43 49.53) (xy 393.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2279db3c-2084-4de1-9c59-efdaaf86af3b")
 	)
 	(wire
 		(pts
@@ -6008,6 +6004,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 57.15) (xy 350.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3e3f02-90b8-48d8-ba6e-dde9442cd9de")
+	)
+	(wire
+		(pts
 			(xy 134.62 135.89) (xy 134.62 130.81)
 		)
 		(stroke
@@ -6078,7 +6084,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 62.23) (xy 273.05 64.77)
+			(xy 269.24 63.5) (xy 269.24 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6198,7 +6204,17 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 52.07) (xy 273.05 54.61)
+			(xy 392.43 52.07) (xy 393.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70848210-fd8a-4b79-b6f1-1b9d8ef25cdd")
+	)
+	(wire
+		(pts
+			(xy 269.24 53.34) (xy 269.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6818,6 +6834,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 49.53) (xy 393.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6cff65-489e-4090-ba40-fd59c1a27b06")
+	)
+	(wire
+		(pts
 			(xy 95.25 175.26) (xy 95.25 170.18)
 		)
 		(stroke
@@ -6855,6 +6881,16 @@
 			(type default)
 		)
 		(uuid "ef265365-c16d-4e3e-a053-4bee3e297358")
+	)
+	(wire
+		(pts
+			(xy 337.82 49.53) (xy 350.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0824d55-91f5-4dd0-b2b7-a5e096a52034")
 	)
 	(wire
 		(pts
@@ -6988,28 +7024,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 360.68 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05fddb02-7e64-4304-b073-43ad5ce519ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.8243 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NFVCC"
 		(shape input)
 		(at 370.84 123.19 270)
@@ -7100,7 +7114,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 295.91 54.61 180)
+		(at 292.1 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7110,7 +7124,7 @@
 		)
 		(uuid "1af2b9be-ee5b-44e8-a088-cf1776c401a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.2767 54.61 0)
+			(at 280.4667 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7202,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 273.05 64.77 270)
+		(at 269.24 66.04 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7198,7 +7212,7 @@
 		)
 		(uuid "2725d37c-61ea-4269-aee2-45f1ed1614d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 71.6257 90)
+			(at 269.24 72.8957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7708,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 308.61 67.31 270)
+		(at 327.66 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7704,7 +7718,7 @@
 		)
 		(uuid "687dd9ba-848f-4589-935d-fd1bcbd077c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 74.1657 90)
+			(at 327.66 70.3557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,28 +7829,6 @@
 		(uuid "6de6a6ef-e550-4012-b134-3deca8b8aa24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.3738 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 370.84 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "705e328a-2a55-4c53-bb9a-4396264ab4eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.6957 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8060,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 273.05 52.07 90)
+		(at 269.24 53.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8078,7 +8070,7 @@
 		)
 		(uuid "7fa7fdec-bef3-4503-ba88-08518cb23725")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 45.4562 90)
+			(at 269.24 46.7262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,9 +8102,31 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 369.57 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82e475fa-e5e2-4677-ad00-356512d09fd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.9562 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at 295.91 52.07 180)
+		(at 292.1 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8122,7 +8136,7 @@
 		)
 		(uuid "85808a67-e44c-4e10-a14b-a89c4fe7a8f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.2767 52.07 0)
+			(at 280.4667 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,6 +8278,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 393.7 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96e8c582-431d-416f-9c33-b859766b231c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 400.5557 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NFVCC"
 		(shape input)
 		(at 77.47 125.73 180)
@@ -8354,7 +8390,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 370.84 43.18 0)
+		(at 392.43 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8364,7 +8400,7 @@
 		)
 		(uuid "9c9cfb65-fe82-43b8-aa55-8440dcfa0044")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 377.4538 43.18 0)
+			(at 399.0438 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8456,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 360.68 50.8 180)
+		(at 369.57 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8430,7 +8466,7 @@
 		)
 		(uuid "a38e8a8b-d5b2-4899-8e87-7799fb1cb8e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.0467 50.8 0)
+			(at 357.9367 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,22 +8632,22 @@
 	)
 	(global_label "BARO_CS"
 		(shape input)
-		(at 360.68 58.42 180)
+		(at 392.43 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b7d6dc4f-b694-4d94-a89e-133d5b7d70cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.2886 58.42 0)
+			(at 403.8214 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8750,7 +8786,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at 360.68 53.34 180)
+		(at 369.57 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8760,7 +8796,7 @@
 		)
 		(uuid "d61be1e3-357c-4150-a806-3d4aff667ef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.0467 53.34 0)
+			(at 357.9367 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +9006,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 308.61 41.91 90)
+		(at 327.66 43.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8980,7 +9016,7 @@
 		)
 		(uuid "e00665e7-7815-45e6-ae36-9eca6099b28f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.61 35.2962 90)
+			(at 327.66 36.5662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9028,7 @@
 	)
 	(global_label "MAG_CS"
 		(shape input)
-		(at 295.91 46.99 180)
+		(at 292.1 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9002,7 +9038,7 @@
 		)
 		(uuid "e5255463-20e8-45f2-9c68-39aafc6c73a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.6677 46.99 0)
+			(at 281.8577 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9292,7 @@
 	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 360.68 55.88 180)
+		(at 369.57 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9266,7 +9302,7 @@
 		)
 		(uuid "fa1fa31e-3960-4ff9-a59c-552949b4cd31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.8653 55.88 0)
+			(at 357.7553 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9336,7 @@
 	)
 	(global_label "SPI_SCLK"
 		(shape input)
-		(at 295.91 49.53 180)
+		(at 292.1 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9310,7 +9346,7 @@
 		)
 		(uuid "feab372b-d806-46ea-8e0b-941ab8c9a86a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.0953 49.53 0)
+			(at 280.2853 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,80 +9356,25 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 38.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "GND"
+		(shape input)
+		(at 369.57 52.07 180)
 		(fields_autoplaced yes)
-		(uuid "0146ec94-b594-4e40-9ad4-264fcc3e896a")
-		(property "Reference" "SW2"
-			(at 38.1 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "SW_Push"
-			(at 38.1 71.12 0)
+		(uuid "ff127387-eb6f-408e-b647-ffb5cf76f99f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.7143 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B"
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ea18454-1152-4faa-b0b5-117afede7832")
-		)
-		(pin "1"
-			(uuid "e33fb797-4d5b-4b1e-a2a5-9f107043bbb2")
-		)
-		(instances
-			(project ""
-				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
-					(reference "SW2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -9557,7 +9538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 58.42 0)
+		(at 269.24 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9566,7 +9547,7 @@
 		(fields_autoplaced yes)
 		(uuid "1139fd4c-0462-4266-a786-fb0371052dbf")
 		(property "Reference" "C11"
-			(at 276.86 57.1499 0)
+			(at 273.05 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9556,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 276.86 59.6899 0)
+			(at 273.05 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9565,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 274.0152 62.23 0)
+			(at 270.2052 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 58.42 0)
+			(at 269.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9583,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 273.05 58.42 0)
+			(at 269.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9592,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 273.05 58.42 0)
+			(at 269.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10298,207 +10279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Magnetic:MLX90395xLW")
-		(at 308.61 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2821573a-8802-4b16-9eb8-cbabe80f1411")
-		(property "Reference" "U5"
-			(at 310.7533 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MLX90395xLW"
-			(at 310.7533 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.675x1.675mm"
-			(at 308.61 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.melexis.com/en/documents/documentation/datasheets/datasheet-mlx90395"
-			(at 308.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-axis Magnetometer Node, SPI / I2C interface, VQFN-16"
-			(at 308.61 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 308.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "bcca0e15-adbf-4ab4-9e94-61c8d44fb86d")
-		)
-		(pin "1"
-			(uuid "fdcd6234-58e1-425d-9040-4d022af44635")
-		)
-		(pin "7"
-			(uuid "e44aa4f6-bddb-408d-ac6c-956efeb1be96")
-		)
-		(pin "6"
-			(uuid "506ec63b-d379-4fa2-bdbb-53b3631c816d")
-		)
-		(pin "5"
-			(uuid "d8d2ffaf-0b75-45ea-8353-f563570ca874")
-		)
-		(pin "3"
-			(uuid "ba0550ab-ee38-4dc8-aee0-f17ee967de7f")
-		)
-		(pin "2"
-			(uuid "20076509-0e4f-49c3-a091-e93d784b2e84")
-		)
-		(pin "9"
-			(uuid "e23d12e3-3ba5-43a5-861a-82053a39cf58")
-		)
-		(pin "14"
-			(uuid "20b009b9-1725-4eef-b6e4-3a58e46db329")
-		)
-		(pin "10"
-			(uuid "6a23c858-3b1d-4858-be44-18a24c53c3c0")
-		)
-		(pin "8"
-			(uuid "d0bd5f26-bd55-4db9-bf6f-400fe7195713")
-		)
-		(pin "12"
-			(uuid "ccbdc943-5a40-487d-aa23-bd83d7ba6254")
-		)
-		(pin "17"
-			(uuid "edea2ffa-47ff-4e2c-b1db-0a23107bb500")
-		)
-		(pin "13"
-			(uuid "ad579b84-c60f-4a43-919a-dc35ac5a54d7")
-		)
-		(pin "4"
-			(uuid "1d8368ff-f0ca-40be-91fe-3bd3cde2e5b0")
-		)
-		(pin "11"
-			(uuid "e7f88fb8-0ed1-4483-9f97-f3070bb52010")
-		)
-		(pin "16"
-			(uuid "b1d4682e-858a-4c49-88cc-4d15e52ef5a4")
-		)
-		(instances
-			(project ""
-				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 30.48 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c7a721a-891c-4b3d-9195-2074caca31c5")
-		(property "Reference" "SW1"
-			(at 30.48 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 30.48 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b485d62c-d7bc-49ab-9ccc-b7de1593c298")
-		)
-		(pin "1"
-			(uuid "aa147cda-8bb7-48f5-8720-ab5637e55ea3")
-		)
-		(instances
-			(project ""
-				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 210.82 173.99 0)
 		(unit 1)
@@ -10524,7 +10304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 210.82 173.99 0)
 			(effects
 				(font
@@ -11897,6 +11677,213 @@
 		)
 	)
 	(symbol
+		(lib_id "MLX90395KDC-BBA-001-SP:MLX90395KDC-BBA-001-SP")
+		(at 309.88 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d1987c-bdd5-4750-a9d2-0aad074965e4")
+		(property "Reference" "U7"
+			(at 309.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLX90395KDC-BBA-001-SP"
+			(at 309.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MLX90395KDC-BBA-001-SP:SOIC127P600X172-8N"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Melexis"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.72mm"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8-8 Melexis"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MLX90395KDC-BBA-001-SP/Melexis/view-part/?ref=eda"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "6.0"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLX90395KDC-BBA-001-SP/Melexis/view-part/?ref=snap"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MLX90395KDC-BBA-001-SP"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "MLX90395BBA.SOIC8.octagon_50mT"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Melexis"
+			(at 309.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "28622e9a-1f06-4282-b985-58b967d843d8")
+		)
+		(pin "4"
+			(uuid "269d78b7-68ae-484c-9769-e60dd7880eab")
+		)
+		(pin "1"
+			(uuid "9bff4964-0b4c-4399-bdc7-0ec03eacee3a")
+		)
+		(pin "8"
+			(uuid "6c18d566-9168-4c13-811c-3cb1e1cc89c7")
+		)
+		(pin "2"
+			(uuid "0fd7436c-8042-4b6f-bdf0-cc14cf1fddf3")
+		)
+		(pin "3"
+			(uuid "b90d1de2-f5a5-44a4-98e1-5055e4a60ab6")
+		)
+		(pin "6"
+			(uuid "a174469d-c834-4d99-9ec4-ea35fb86a33d")
+		)
+		(pin "7"
+			(uuid "f748e18b-7f4a-4dae-8d67-2575150923e0")
+		)
+		(instances
+			(project ""
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 147.32 0)
 		(unit 1)
@@ -11988,7 +11975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -12128,6 +12115,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 350.52 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e2ec9c1-fdb1-419c-9956-097e542bd6e0")
+		(property "Reference" "C6"
+			(at 354.076 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 354.076 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 351.4852 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 350.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 350.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ee82c5-dd3e-4300-81e0-b47e4d72d385")
+		)
+		(pin "2"
+			(uuid "1a4f09a9-f9c8-42ed-b02b-031db27f6120")
+		)
+		(instances
+			(project "Sigma1"
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 203.2 170.18 0)
 		(unit 1)
@@ -12155,7 +12220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 203.2 170.18 0)
 			(effects
 				(font
@@ -12332,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 212.09 162.56 0)
 			(effects
 				(font
@@ -12460,6 +12525,83 @@
 			(project "Sigma1"
 				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1088R-02026")
+		(at 38.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8215a59f-8b02-4bcb-8e47-3ca1318824ac")
+		(property "Reference" "SW1"
+			(at 38.1 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088R-02026"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+			(at 38.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C455280"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b24d3bc-f08f-498c-aa1a-a8674ea46828")
+		)
+		(pin "2"
+			(uuid "a5c5ac73-627e-4959-8a9a-f0bf23b397e8")
+		)
+		(instances
+			(project ""
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12630,7 +12772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1μF"
 			(at 109.22 45.7199 0)
 			(effects
 				(font
@@ -12831,6 +12973,107 @@
 			(project ""
 				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:BMP390_C5124834")
+		(at 381 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94301a77-4093-4adc-a0f0-15a5050ddb36")
+		(property "Reference" "U5"
+			(at 381 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP390_C5124834"
+			(at 381 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LGA-10_L2.0-W2.0-P0.50-BL"
+			(at 381 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5124834"
+			(at 381 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1489aa18-ffd6-4b82-a9f5-6153c2184163")
+		)
+		(pin "7"
+			(uuid "2bb97f93-78ac-4528-bc1c-8ff6638aa455")
+		)
+		(pin "1"
+			(uuid "f3adef62-72bc-47a7-b799-6f0ea8510fa7")
+		)
+		(pin "6"
+			(uuid "553946a4-85aa-4cae-9059-2da82443b917")
+		)
+		(pin "4"
+			(uuid "4f7f7b77-a144-45a7-bbb0-1c6350eba3d2")
+		)
+		(pin "5"
+			(uuid "28473291-af67-46ca-8b19-a9b3d43b43ad")
+		)
+		(pin "2"
+			(uuid "4798ebe1-1feb-4b4e-90c0-005b1e98a002")
+		)
+		(pin "3"
+			(uuid "72468412-403d-4e53-bde0-923d46d6b387")
+		)
+		(pin "10"
+			(uuid "ba62e6d0-39d0-40f7-adef-7082b87847eb")
+		)
+		(pin "9"
+			(uuid "e3d3f46a-5a8d-40e9-8524-3a5cb7d70944")
+		)
+		(instances
+			(project ""
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13510,103 +13753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Pressure:MS5611-01BA")
-		(at 370.84 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b90ff171-8daa-4be0-a94b-059214ba4fa6")
-		(property "Reference" "U4"
-			(at 379.73 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MS5611-01BA"
-			(at 379.73 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
-			(at 370.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
-			(at 370.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
-			(at 370.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 370.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d35e993c-5785-418d-bd51-580d66d9d228")
-		)
-		(pin "5"
-			(uuid "3b2cea62-235f-43bc-b3ed-edaad0ef3f9c")
-		)
-		(pin "2"
-			(uuid "c9bdc1f4-dd9e-4534-87dc-e1485a8cb80c")
-		)
-		(pin "1"
-			(uuid "6cdbfe10-af4c-4a75-9ccd-444d7cfdfad6")
-		)
-		(pin "8"
-			(uuid "efc2c9b4-9c40-407c-8e21-f05ab5abd796")
-		)
-		(pin "7"
-			(uuid "855a5f00-aaeb-44c8-8a0c-5272c3fcab64")
-		)
-		(pin "6"
-			(uuid "6b1b8ca6-6965-4a3d-abbb-c389e6ca4aac")
-		)
-		(pin "3"
-			(uuid "2bfbcee9-8910-41ca-bbb7-bc3936341b02")
-		)
-		(instances
-			(project ""
-				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 212.09 149.86 0)
 		(unit 1)
@@ -13632,7 +13778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 212.09 149.86 0)
 			(effects
 				(font
@@ -13900,7 +14046,7 @@
 				)
 			)
 		)
-		(property "Value" "350"
+		(property "Value" "330"
 			(at 147.32 137.16 90)
 			(effects
 				(font
@@ -14041,15 +14187,14 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 116.84 44.45 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c41a48e5-8cab-4a19-8814-c517cad3398b")
-		(property "Reference" "C6"
-			(at 120.65 45.7201 0)
+		(property "Reference" "C19"
+			(at 120.65 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14057,8 +14202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 120.65 43.1801 0)
+		(property "Value" "10uf"
+			(at 120.65 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14067,7 +14212,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 117.8052 40.64 0)
+			(at 117.8052 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14256,84 @@
 		(instances
 			(project ""
 				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
-					(reference "C6")
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:TS-1088R-02026")
+		(at 30.48 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4dffd5-2ac1-4657-91e1-89ffc26ef518")
+		(property "Reference" "SW3"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088R-02026"
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
+			(at 30.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XUNPU-TS-1088R-02026_C455280.html"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C455280"
+			(at 30.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5037d558-c5a3-4af3-be0b-24708a303602")
+		)
+		(pin "1"
+			(uuid "101541b9-4b01-4c9d-b99e-d6d0ddf93c9f")
+		)
+		(instances
+			(project ""
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
