@@ -1,34 +1,37 @@
-Product ,Link,Cost Per Item,Quantity,Total
-(pcb AND STENCIL),n/a,$19.53,1,$19.53
-10µF,https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61E106ME13D/5417024,$0.25,4,$1.00
-100n,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71E104KA57D/3845251,$0.25,5,$1.25
-0.1µF,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71E104KA57D/3845251,$0.25,5,$1.25
-22µF,https://www.digikey.com/en/products/detail/yageo/CC0603MRX5R6BB226/5195721,$0.65,2,$1.30
-10uf,https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61E106ME13D/5417024,$0.25,1,$0.25
-2u2,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792,$0.08,1,$0.08
-10n,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1E103JE01D/16707175,$0.14,1,$0.14
-Conn_01x02,https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10129378-916001BLF/7915965,$0.30,1,$0.30
-Screw_Terminal_01x02,I own this,,4,0
-Servo 1,sharing from 10,,2,0
-Servo 2,sharing from 10,,1,0
-Servo 3,sharing from 10,,1,0
-Conn_01x10,sharing from 10,,1,0
-USB_C_Plug_USB2.0,https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/124019772112A/13683231,$1.96,1,$1.96
-IRLML6402,https://www.digikey.com/en/products/detail/infineon-technologies/IRLML6402TRPBF/811437,$0.42,4,$1.68
-5.1k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-105K1L/14287630,$0.10,1,$0.10
-100,https://www.digikey.com/en/products/detail/yageo/RC0603FR-10100RL/12756410,$0.10,4,$0.40
-10k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-1010KL/12756418,$0.10,6,$0.60
-60,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-FX-60R4ELF/CR0603-FX-60R4ELFCT-ND/4247821,$0.10,1,$0.10
-330,https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603330RJNEAC/7928482,$0.10,1,$0.10
-TS-1088R-02026,https://www.digikey.com/en/products/detail/e-switch/TL3365AF180QG/5964420,$0.21,2,$0.42
-ESP32-S3-WROOM-1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8/15200089,$5.49,1,$5.49
-LD1117S33TR_SOT223,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S33TR/585766?s=N4IgTCBcDaIDIBECMKDsBlAzJgKgJRAF0BfIA,$0.34,1,$0.34
-ICM-42688-P,https://www.digikey.com/en/products/detail/tdk-invensense/ICM-42688-P/10824934,$4.67,1,$4.67
-BMP390_C5124834,https://www.digikey.com/en/products/detail/bosch-sensortec/BMP390/16164575,$3.15,1,$3.15
-TPS565208,https://www.digikey.com/en/products/detail/texas-instruments/TPS565208DDCR/7776393,$1.38,1,$1.38
-MLX90395KDC-BBA-001-SP,https://www.digikey.com/en/products/detail/melexis-technologies-nv/MLX90395KDC-BBA-101-RE/12330246,$2.85,1,$2.85
-W25Q16JVSS,https://www.digikey.com/en/products/detail/winbond-electronics/W25Q16JVSSIQ/6193769,$0.60,1,$0.60
-OV-7604-C7-32.768KHZ-20PPM-TB-QA,https://www.digikey.com/en/products/detail/micro-crystal-ag/OV-7604-C7-32-768KHZ-20PPM-TB-QA/10499163,$2.07,1,$2.07
-,,,,
-,,,,
-Total,$51.01,,,
+Product ,Link,Cost Per Item,Quantity,Total,Note
+(pcb AND STENCIL),https://github.com/zykron1/mango/blob/main/pcb/production/MANGO_final.zip,$19.53,1,$16.17,
+10µF,https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61E106ME13D/5417024,$0.25,4,$1.00,
+100n,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71E104KA57D/3845251,$0.25,5,$1.25,
+0.1µF,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71E104KA57D/3845251,$0.25,5,$1.25,
+22µF,https://www.digikey.com/en/products/detail/yageo/CC0603MRX5R6BB226/5195721,$0.65,2,$1.30,
+10uf,https://www.digikey.com/en/products/detail/murata-electronics/GRT188R61E106ME13D/5417024,$0.25,1,$0.25,
+2u2,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792,$0.08,1,$0.08,
+10n,https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1E103JE01D/16707175,$0.14,1,$0.14,
+Conn_01x02,https://www.digikey.com/en/products/detail/amphenol-icc-fci-/10129378-916001BLF/7915965,$0.30,1,$0.30,
+Screw_Terminal_01x02,https://tinkersphere.com/breadboard-perfboard-prototyping/476-2-pole-screw-terminal-breadboard-compatible.html,$0.75,4,$3.00,Not requesting Funding for this
+Servo 1,sharing from 10,,2,0,
+Servo 2,sharing from 10,,1,0,
+Servo 3,sharing from 10,,1,0,
+Conn_01x10,sharing from 10,,1,0,
+USB_C_Plug_USB2.0,https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/124019772112A/13683231,$1.96,1,$1.96,
+IRLML6402,https://www.digikey.com/en/products/detail/infineon-technologies/IRLML6402TRPBF/811437,$0.42,4,$1.68,
+5.1k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-105K1L/14287630,$0.10,1,$0.10,
+100,https://www.digikey.com/en/products/detail/yageo/RC0603FR-10100RL/12756410,$0.10,4,$0.40,
+10k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-1010KL/12756418,$0.10,6,$0.60,
+60,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-FX-60R4ELF/CR0603-FX-60R4ELFCT-ND/4247821,$0.10,1,$0.10,
+330,https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603330RJNEAC/7928482,$0.10,1,$0.10,
+TS-1088R-02026,https://www.digikey.com/en/products/detail/e-switch/TL3365AF180QG/5964420,$0.21,2,$0.42,
+ESP32-S3-WROOM-1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8/15200089,$5.49,1,$5.49,
+LD1117S33TR_SOT223,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S33TR/585766?s=N4IgTCBcDaIDIBECMKDsBlAzJgKgJRAF0BfIA,$0.34,1,$0.34,
+ICM-42688-P,https://www.digikey.com/en/products/detail/tdk-invensense/ICM-42688-P/10824934,$4.67,1,$4.67,
+BMP390_C5124834,https://www.digikey.com/en/products/detail/bosch-sensortec/BMP390/16164575,$3.15,1,$3.15,
+TPS565208,https://www.digikey.com/en/products/detail/texas-instruments/TPS565208DDCR/7776393,$1.38,1,$1.38,
+MLX90395KDC-BBA-001-SP,https://www.digikey.com/en/products/detail/melexis-technologies-nv/MLX90395KDC-BBA-101-RE/12330246,$2.85,1,$2.85,
+W25Q16JVSS,https://www.digikey.com/en/products/detail/winbond-electronics/W25Q16JVSSIQ/6193769,$0.60,1,$0.60,
+OV-7604-C7-32.768KHZ-20PPM-TB-QA,https://www.digikey.com/en/products/detail/micro-crystal-ag/OV-7604-C7-32-768KHZ-20PPM-TB-QA/10499163,$2.07,1,$2.07,
+Subtotal,$50.65,,,,
+DigiKey Shipping Cost,$6.99,,,,
+Digikey Tarrif Cost,$0.80,,,,
+Total Parts Cost,$42.41,(TAXES),,,
+Total Board Cost,$58.58,,,,
+Asking For: 60 dollars(JLC prices are variable),,,,,
