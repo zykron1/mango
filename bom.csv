@@ -17,9 +17,15 @@ USB_C_Plug_USB2.0,https://www.digikey.com/en/products/detail/amphenol-cs-commerc
 IRLML6402,https://www.digikey.com/en/products/detail/infineon-technologies/IRLML6402TRPBF/811437,$0.42,4,$1.68,
 5.1k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-105K1L/14287630,$0.10,1,$0.10,
 100,https://www.digikey.com/en/products/detail/yageo/RC0603FR-10100RL/12756410,$0.10,4,$0.40,
+<<<<<<< HEAD
 10k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-1010KL/12756418,$0.10,6,$0.60,
 60,https://www.digikey.com/en/products/detail/bourns-inc/CR0603-FX-60R4ELF/CR0603-FX-60R4ELFCT-ND/4247821,$0.10,1,$0.10,
 330,https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603330RJNEAC/7928482,$0.10,1,$0.10,
+=======
+10k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-1010KL/12756418,$0.10,7,$0.70,
+3.3uh,https://www.digikey.com/en/products/detail/murata-electronics/LQM21PN3R3MG0D/19560375,$0.17,1,$0.17,
+54.9k,https://www.digikey.com/en/products/detail/yageo/RC0603FR-0754K9L/727298,$0.10,1,$0.10,
+>>>>>>> d75fabc (added inductor and used recomended texas instruments resistors)
 TS-1088R-02026,https://www.digikey.com/en/products/detail/e-switch/TL3365AF180QG/5964420,$0.21,2,$0.42,
 ESP32-S3-WROOM-1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N8/15200089,$5.49,1,$5.49,
 LD1117S33TR_SOT223,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S33TR/585766?s=N4IgTCBcDaIDIBECMKDsBlAzJgKgJRAF0BfIA,$0.34,1,$0.34,
@@ -35,4 +41,3 @@ Digikey Tarrif Cost,$0.80,,,,
 Total Parts Cost,$42.41,(TAXES),,,
 Total Board Cost,$58.58,,,,
 Asking For: 62 dollars(JLC prices are variable),,,,,
-

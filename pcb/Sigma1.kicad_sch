@@ -1637,6 +1637,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5324,12 +5486,6 @@
 		(uuid "0e4f8884-024d-49fe-bb8f-48c38ba34005")
 	)
 	(junction
-		(at 142.24 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10026069-cf07-46ce-80ce-4ae731f81826")
-	)
-	(junction
 		(at 273.05 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5378,12 +5534,6 @@
 		(uuid "2225fd87-fa62-4b7a-b84f-582b2bf42554")
 	)
 	(junction
-		(at 154.94 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290e556b-23ba-4580-8e6d-2d2079529541")
-	)
-	(junction
 		(at 152.4 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5394,6 +5544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "349a7fd1-93e5-4b1f-9435-9414c43c3848")
+	)
+	(junction
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3919f4c9-266d-4cc9-9a50-a057d5a5b520")
 	)
 	(junction
 		(at 78.74 133.35)
@@ -5546,6 +5702,12 @@
 		(uuid "efcb2c2e-a359-4be6-8be7-cf5a1ab86fb5")
 	)
 	(junction
+		(at 154.94 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5672121-95f3-42a1-85a6-6f55a85db6a7")
+	)
+	(junction
 		(at 312.42 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5599,24 +5761,6 @@
 			(type default)
 		)
 		(uuid "32f4bf5e-1d25-4d95-b92a-d6851e31c57a")
-	)
-	(bus_entry
-		(at 118.11 152.4)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63fca563-7aa0-4431-9257-026cf6c37ad9")
-	)
-	(bus_entry
-		(at 132.08 139.7)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eff986a4-a077-41c9-9261-fc0bf7269e65")
 	)
 	(wire
 		(pts
@@ -5720,16 +5864,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 139.7) (xy 153.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ba6158-9fa9-4e20-88ba-78da8ef08c38")
-	)
-	(wire
-		(pts
 			(xy 142.24 132.08) (xy 139.7 132.08)
 		)
 		(stroke
@@ -5747,6 +5881,16 @@
 			(type default)
 		)
 		(uuid "1ba0e7f3-b341-4adf-95c5-1c88cd7b5554")
+	)
+	(wire
+		(pts
+			(xy 151.13 139.7) (xy 153.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c953b46-7e5a-4184-9d9c-42e68550691b")
 	)
 	(wire
 		(pts
@@ -6097,6 +6241,16 @@
 			(type default)
 		)
 		(uuid "5d82f979-c181-44f1-a28c-bbbe3dff56a6")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dab50b3-2c6c-40d4-b616-8ca445b112f0")
 	)
 	(wire
 		(pts
@@ -6480,6 +6634,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a824a380-7364-44a7-b45d-ad1d3795b562")
+	)
+	(wire
+		(pts
 			(xy 43.18 49.53) (xy 43.18 48.26)
 		)
 		(stroke
@@ -6667,16 +6831,6 @@
 			(type default)
 		)
 		(uuid "cc338c48-d529-4021-aeae-dffcffc30160")
-	)
-	(wire
-		(pts
-			(xy 142.24 124.46) (xy 154.94 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf17ce61-4345-4eb4-9cc2-4269156e9421")
 	)
 	(wire
 		(pts
@@ -11177,6 +11331,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 148.59 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a89249-0641-4db5-9337-c4ed2e156354")
+		(property "Reference" "L1"
+			(at 148.59 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uh"
+			(at 148.59 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30632a58-b8ea-45c5-9f46-fcc65a515b97")
+		)
+		(pin "1"
+			(uuid "209e144f-8f66-4696-b397-4ecea481868c")
+		)
+		(instances
+			(project ""
+				(path "/86cf4319-5abb-4674-bb55-c16ab4b96581"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 30.48 49.53 0)
 		(unit 1)
@@ -12681,7 +12903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "10k"
 			(at 134.62 144.7799 0)
 			(effects
 				(font
@@ -14101,7 +14323,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "54.9k"
 			(at 147.32 137.16 90)
 			(effects
 				(font
